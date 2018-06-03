@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>artolia-browser</artifactId>
+  <name>artolia-browser</name>
+  <description>artolia's browser project</description>
+  <parent>
+  	<groupId>com.artolia</groupId>
+  	<artifactId>artolia</artifactId>
+  	<version>1.0.0-SNAPSHOT</version>
+  	<relativePath>../artolia</relativePath>
+  </parent>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>com.artolia</groupId>
+  		<artifactId>artolia-core</artifactId>
+  		<version>${artolia.version}</version>
+  	</dependency>
+  	<dependency>
+	    <groupId>org.springframework.session</groupId>
+	    <artifactId>spring-session-core</artifactId>
+	</dependency>
+  </dependencies>
+</project>
